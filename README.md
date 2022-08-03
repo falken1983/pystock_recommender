@@ -51,11 +51,11 @@ We are working on expanding the coverage of the repo. Areas under active develop
 
 ## Notebooks
 
-See [`pystock_recommenders/jupyter_notebooks`](https://github.com/falken1983/pystock_recommender/tree/main/jupyter_nootebooks/)
+See [`pystock_recommenders/jupyter_notebooks`](https://github.com/falken1983/pystock_recommender/tree/main/jupyter_notebooks/)
 for end-to-end data analysis and developments. It includes notebooks such as:
 
-  *   [Index Components Web Scraping](https://colab.research.google.com/github/google/pystock_recommender/blob/main/jupyter_notebooks/index_components_webscraper.ipynb)
-  *   [Price Components Public Data Availability and Handling](https://colab.research.google.com/github/google/pystock_recommender/blob/main/jupyter_notebooks/price_components_data_handler.ipynb)
+  *   [Index Components Web Scraping](https://colab.research.google.com/github/falken1983/pystock_recommender/blob/master/jupyter_notebooks/index_components_webscraper.ipynb)
+  *   [Price Components Public Data Availability and Handling](https://colab.research.google.com/github/falken1983/pystock_recommender/blob/master/jupyter_notebooks/price_components_data_handler.ipynb)
   
 The above links will open Jupyter Notebooks in Colab.
 
@@ -83,7 +83,7 @@ cd pystock_recommender
 
 ```
 
-There's a `environments.yml` still under changes. (`conda env`)
+There's a `environments.yml` but it is still under changes. (`conda env`)
 
 ## Disclaimers
 
