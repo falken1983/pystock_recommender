@@ -1,13 +1,9 @@
 name: pystock-recommender
 channels:
+  - conda-forge
   - defaults
-
-dependencies:
- - python=3.9
- - matplotlib
- - numpy
- - pandas
- - scikit-learn
- - pip:
-   - nasdaq-data-link
-   - yfinance
+  - pip:
+    - more-itertools==8.13.0
+    - multitasking==0.0.11
+    - nasdaq-data-link==1.0.2
+    - yfinance==0.1.74
