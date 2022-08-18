@@ -56,7 +56,7 @@ for end-to-end data analysis and developments. It includes notebooks such as:
 
   *   [Index Components Web Scraping](https://colab.research.google.com/github/falken1983/pystock_recommender/blob/master/jupyter_notebooks/index_components_webscraper.ipynb)
   *   [Price Components Public Data Availability Analysis](https://colab.research.google.com/github/falken1983/pystock_recommender/blob/master/jupyter_notebooks/price_components_data_analysis.ipynb)
-    *  [Price Components Data Generator](https://colab.research.google.com/github/falken1983/pystock_recommender/blob/master/jupyter_notebooks/price_components_data_generator.ipynb)
+  *  [Price Components Data Generator](https://colab.research.google.com/github/falken1983/pystock_recommender/blob/master/jupyter_notebooks/price_components_data_generator.ipynb)
   
 The above links will open Jupyter Notebooks in Colab.
 
