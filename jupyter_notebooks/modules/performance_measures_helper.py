@@ -3,27 +3,30 @@
 import pandas as pd
 import numpy as np
 
+scalers = {
+    "daily": 252,
+    "monthly": 12,
+    "weekly": 50,
+    "biweekly": 25
+}
+
 """ 
 Performance Measures Related Functions
 """
+
 #Sharpe Ratio Functions
 def sharpe_ratio(y, freq="daily"):
     """Classical Sharpe Ratio. Annualized Ratio
-    """
-    scalers = {"daily": 252,
-               "monthly": 12,
-               "weekly": 50,
-               "biweekly": 25
-    }
+    """    
     # Annualized ratio
     return np.sqrt(scalers[freq]) * (y.mean() / y.std()) 
 
 #TBD
-def israelsen_sharpe_ratio(y):    
+def israelsen_sharpe_ratio(y, freq="daily"):    
     """Israelsen Trick for the Sharpe Ratio
     """
     if y.mean()<0:
-        return np.sqrt(252) *(y.mean()*y.std())
+        return np.sqrt(scalers[freq]) *(y.mean()*y.std())
     else:
         return sharpe_ratio(y)
 
