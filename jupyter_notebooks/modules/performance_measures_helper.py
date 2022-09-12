@@ -26,7 +26,7 @@ def israelsen_sharpe_ratio(y, freq="daily"):
     """Israelsen Trick for the Sharpe Ratio
     """
     if y.mean()<0:
-        return np.sqrt(scalers[freq]) *(y.mean()*y.std())
+        return np.power(scalers[freq],1.5) *(y.mean()*y.std())
     else:
         return sharpe_ratio(y)
 
@@ -48,7 +48,7 @@ Scoring Related Functions
 def scorer(data, bins=20):
     """ Simple Scorer (The Higher, the Better) """
     df = pd.cut(x=data, bins=bins, labels=False)
-    return 1+df
+    return df
 
 def main():
     pass
